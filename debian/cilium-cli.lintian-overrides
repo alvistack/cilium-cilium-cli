@@ -1,0 +1,5 @@
+cilium-cli: copyright-without-copyright-notice
+cilium-cli: initial-upload-closes-no-bugs
+cilium-cli: no-manual-page
+cilium-cli: statically-linked-binary
+cilium-cli: zero-byte-file-in-doc-directory
