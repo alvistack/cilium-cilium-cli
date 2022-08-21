@@ -1,0 +1,5 @@
+cilium-cli (100:0.12.1+2022081829e62502-1) UNRELEASED; urgency=medium
+
+  * https://github.com/cilium/cilium-cli/commit/29e625024e5c5d6590dda29a26b34f32b58d8c37
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Sun, 21 Aug 2022 14:59:32 +0800
