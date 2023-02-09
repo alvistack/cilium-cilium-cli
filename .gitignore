@@ -24,3 +24,5 @@ cilium-sysdump-*.zip
 
 # Editor metas
 .vscode/
+
+bin/
