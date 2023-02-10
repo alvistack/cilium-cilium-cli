@@ -15,7 +15,7 @@ require (
 	github.com/cilium/charts v0.0.0-20220422151113-6e77b71a4021
 	github.com/cilium/cilium v1.11.3
 	github.com/cilium/hubble v0.9.0
-	github.com/cilium/workerpool v1.1.2
+	github.com/cilium/workerpool v1.2.0
 	github.com/cloudflare/cfssl v1.6.1
 	github.com/go-openapi/strfmt v0.21.2
 	github.com/google/gops v0.3.22
