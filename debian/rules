@@ -1,0 +1,27 @@
+#!/usr/bin/make -f
+
+SHELL := /bin/bash
+
+override_dh_auto_build:
+	mkdir -p bin
+	set -ex && \
+		export CGO_ENABLED=1 && \
+		go build \
+			-mod vendor -buildmode pie -v \
+			-ldflags "-s -w \
+				-X 'github.com/cilium/cilium-cli/internal/cli/cmd.Version=0.15.5' \
+			" \
+			-o ./cilium ./cmd/cilium
+
+override_dh_auto_install:
+	install -Dpm755 -d debian/tmp/usr/bin
+	install -Dpm755 -d debian/tmp/usr/share/bash-completion/completions
+	install -Dpm755 -t debian/tmp/usr/bin cilium
+	./cilium completion bash > debian/tmp/usr/share/bash-completion/completions/cilium
+
+override_dh_auto_test:
+
+override_dh_auto_clean:
+
+%:
+	dh $@
