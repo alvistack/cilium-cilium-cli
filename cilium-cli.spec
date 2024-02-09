@@ -22,7 +22,7 @@ Summary: CLI to install, manage & troubleshoot Kubernetes clusters running Ciliu
 License: Apache-2.0
 URL: https://github.com/cilium/cilium-cli/tags
 Source0: %{name}_%{version}.orig.tar.gz
-BuildRequires: golang-1.21
+BuildRequires: golang-1.22
 BuildRequires: glibc-static
 
 %description
