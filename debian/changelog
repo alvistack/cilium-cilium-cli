@@ -1,0 +1,5 @@
+cilium-cli (100:0.16.19-1) UNRELEASED; urgency=medium
+
+  * https://github.com/cilium/cilium-cli/releases/tag/v0.16.19
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Wed, 02 Oct 2024 11:54:47 +0800
