@@ -1,0 +1,3 @@
+cilium-cli source: file-without-copyright-information
+cilium-cli source: no-debian-changes
+cilium-cli source: source-is-missing
